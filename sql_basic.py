@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 pd.options.display.max_columns = None
 
-conn = psycopg2.connect(user='postgres', password='103728aesdhj', host='localhost', port=5432, database='shop')
+conn = psycopg2.connect(user='postgres', password='', host='localhost', port=5432, database='shop')
 cursor = conn.cursor()
 
 # 32
